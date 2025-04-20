@@ -28,14 +28,14 @@ function Contact() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Otto SP - Contact</title>
+          <title>Otto SP - Kontak</title>
         </Helmet>
-      </HelmetProvider>z
+      </HelmetProvider>
       <Container fluid className="contact-wrapper">
         <div className="contact-left animate__animated animate__zoomIn">
-          <h3>Contact</h3>
+          <h3>Kontak</h3>
           <h4>
-            ───&nbsp;&nbsp;Page <strong>05</strong>
+            ───&nbsp;&nbsp;Halaman <strong>05</strong>
           </h4>
         </div>
         <div className="contact-right">

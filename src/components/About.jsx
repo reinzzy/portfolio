@@ -32,9 +32,9 @@ function About() {
       />
       <Container fluid className="about-wrapper">
         <div className="about-left animate__animated animate__zoomIn">
-          <h3>About</h3>
+          <h3>Tentang</h3>
           <h4>
-            ───&nbsp;&nbsp;Page <strong>02</strong>
+            ───&nbsp;&nbsp;Halaman <strong>02</strong>
           </h4>
         </div>
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
@@ -48,7 +48,7 @@ function About() {
             deploy dynamic, interactive, and secure web applications.
           </p>
 
-          <h4>Certificates</h4>
+          <h4>Sertifikat</h4>
           <span>─────</span>
           <div className="certificates-wrapper">
             {certificateImages

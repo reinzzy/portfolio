@@ -9,14 +9,14 @@ function Projects() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Otto SP - Projects</title>
+          <title>Otto SP - Proyek</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="projects-container">
         <div className="projects-title animate__animated animate__zoomIn">
-          <h3>Projects</h3>
+          <h3>Proyek</h3>
           <h4>
-            ───&nbsp;&nbsp;Page <strong>04</strong>
+            ───&nbsp;&nbsp;Halaman <strong>04</strong>
           </h4>
         </div>
         <div className="projects-wrapper animate__animated animate__fadeIn animate_slower my-4">

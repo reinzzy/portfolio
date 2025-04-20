@@ -26,7 +26,7 @@ function NavTop() {
               <GrClose />
             </button>
             <div className="menu-list">
-              <NavLink to="/" onClick={toogleClose}>
+              <NavLink to="/portfolio" onClick={toogleClose}>
                 Home
               </NavLink>
               <NavLink to="/about" onClick={toogleClose}>
@@ -53,7 +53,7 @@ function NavTop() {
       <Navbar className="navtop py-3" expand="lg">
         <Container fluid className="px-4">
           <Navbar.Brand className="navtop-brand">
-            <Link to="/">
+            <Link to="/portfolio">
               Otto<i id="normal"> SP</i>.
             </Link>
           </Navbar.Brand>
@@ -63,10 +63,10 @@ function NavTop() {
           <Nav className="navtop-list ms-auto">
             <Nav.Link className="pe-3">
               <NavLink
-                to="/"
+                to="/portfolio"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Home
+                Beranda
               </NavLink>
             </Nav.Link>
             <Nav.Link className="pe-3">
@@ -74,7 +74,7 @@ function NavTop() {
                 to="/about"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                About
+                Tentang
               </NavLink>
             </Nav.Link>
             <Nav.Link className="pe-3">
@@ -82,7 +82,7 @@ function NavTop() {
                 to="/skills"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Skills
+                Skill
               </NavLink>
             </Nav.Link>
             <Nav.Link className="pe-3">
@@ -90,7 +90,7 @@ function NavTop() {
                 to="/projects"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Projects
+                Proyek
               </NavLink>
             </Nav.Link>
             <Nav.Link>
@@ -98,7 +98,7 @@ function NavTop() {
                 to="/contact"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Contact
+                Kontak
               </NavLink>
             </Nav.Link>
           </Nav>

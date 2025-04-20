@@ -40,7 +40,7 @@ function App() {
       <div className="d-flex">
         <SideVertical />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/portfolio" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="/projects" element={<Projects />}></Route>

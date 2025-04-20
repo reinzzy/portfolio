@@ -8,14 +8,14 @@ function Skills() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Otto SP - Skills</title>
+          <title>Otto SP - Skill</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="skills-wrapper">
         <div className="skills-left animate__animated animate__zoomIn">
-          <h3>Skills</h3>
+          <h3>Skill</h3>
           <h4>
-            ───&nbsp;&nbsp;Page <strong>03</strong>
+            ───&nbsp;&nbsp;Halaman <strong>03</strong>
           </h4>
         </div>
         <div className="skills-right">

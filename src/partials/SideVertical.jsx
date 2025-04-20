@@ -11,7 +11,7 @@ function SideVertical(props) {
   const date = new Date().toISOString().slice(0, 10);
 
   switch (pathname) {
-    case "/":
+    case "/portfolio":
       numberPage = "01";
       titlePage = "Beranda";
       break;
@@ -36,40 +36,40 @@ function SideVertical(props) {
 
   // Direct Up
   switch (pathname) {
-    case "/":
+    case "/portfolio":
       directUp = "/kontak";
       break;
-    case "/tenang":
-      directUp = "/";
+    case "/about":
+      directUp = "/portfolio";
       break;
-    case "/skill":
-      directUp = "/tentang";
+    case "/skills":
+      directUp = "/about";
       break;
-    case "/proyek":
-      directUp = "/skill";
+    case "/projects":
+      directUp = "/skills";
       break;
-    case "/kontak":
-      directUp = "/proyek";
+    case "/contact":
+      directUp = "/projects";
       break;
     default:
   }
 
   // Direct Down
   switch (pathname) {
-    case "/":
-      directDown = "/tentang";
+    case "/portfolio":
+      directDown = "/about";
       break;
-    case "/tentang":
-      directDown = "/skill";
+    case "/about":
+      directDown = "/skills";
       break;
-    case "/skill":
-      directDown = "/proyek";
+    case "/skills":
+      directDown = "/projects";
       break;
-    case "/proyek":
-      directDown = "/kontak";
+    case "/projects":
+      directDown = "/contact";
       break;
-    case "/kontak":
-      directDown = "/";
+    case "/contact":
+      directDown = "/portfolio";
       break;
     default:
   }
