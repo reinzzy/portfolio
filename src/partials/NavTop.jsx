@@ -27,19 +27,19 @@ function NavTop() {
             </button>
             <div className="menu-list">
               <NavLink to="/portfolio" onClick={toogleClose}>
-                Home
+                Beranda
               </NavLink>
               <NavLink to="/about" onClick={toogleClose}>
-                About
+                Tentang
               </NavLink>
               <NavLink to="/skills" onClick={toogleClose}>
-                Skills
+                Skill
               </NavLink>
               <NavLink to="/projects" onClick={toogleClose}>
-                Projects
+                Proyek
               </NavLink>
               <NavLink to="/contact" onClick={toogleClose}>
-                Contact
+                Kontak
               </NavLink>
             </div>
           </Container>
