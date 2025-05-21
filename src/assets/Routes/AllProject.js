@@ -18,22 +18,13 @@ const allProjects = [
     techStack: ['Laravel', 'PHP'],
   },
   {
-    title: 'Simpel Store',
-    img: require('../img/Project2.webp'),
+    title: 'Paud Muslim',
+    img: require('../img/Project3.webp'),
     description:
-      'Simple Store is a full-stack website, allowing users to add items, earn tokens, and redeem tokens.',
+      'Landing Page untuk sekolah muslim dengan berbagai fitur menarik (Uji Coba).',
     websiteUrl: '',
-    githubUrl: 'https://github.com/reinzzy/portal-indonesia.git',
-    techStack: ['Laravel', 'PHP'],
-  },
-  {
-    title: 'Simpel Store',
-    img: require('../img/Project2.webp'),
-    description:
-      'Simple Store is a full-stack website, allowing users to add items, earn tokens, and redeem tokens.',
-    websiteUrl: '',
-    githubUrl: 'https://github.com/reinzzy/portal-indonesia.git',
-    techStack: ['Laravel', 'PHP'],
+    githubUrl: 'https://github.com/reinzzy/muslim-landing',
+    techStack: ['HTML', 'Tailwind CSS'],
   },
 ];
 
