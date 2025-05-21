@@ -39,13 +39,9 @@ function About() {
         </div>
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
           <p>
-            Hi, I'm Otto Santoso Putro, a student studying Information Engineering at
-            Duta Bangsa University. I have a strong interest in web programming
-            and cloud computing. Specifically, I use a combination of
-            technologies called the MERN stack (MongoDB, Express.js, React.js,
-            Node.js), and I am also knowledgeable in cloud computing using
-            Google Cloud Platform (GCP), which allows me to create, manage, and
-            deploy dynamic, interactive, and secure web applications.
+          Hi, I'm Otto Santoso Putro, a student majoring in Informatics Engineering at Duta Bangsa University.
+          I have a strong interest in web and application programming. I have various expertise in web such as
+          Laravel and React JS, then I also mastered in mobile using Flutter framework.
           </p>
 
           <h4>Sertifikat</h4>

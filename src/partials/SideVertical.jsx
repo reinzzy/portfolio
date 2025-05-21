@@ -37,7 +37,7 @@ function SideVertical(props) {
   // Direct Up
   switch (pathname) {
     case "/portfolio":
-      directUp = "/kontak";
+      directUp = "/contact";
       break;
     case "/about":
       directUp = "/portfolio";

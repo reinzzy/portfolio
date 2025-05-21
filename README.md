@@ -8,8 +8,6 @@
 <!-- GETTING STARTED -->
 ### Installation
 
-_Below is the way to run this project on your device. Please star this repo first_
-
 1. Clone the repo
    ```sh
    git clone https://github.com/reinzzy/portfolio.git
@@ -20,7 +18,7 @@ _Below is the way to run this project on your device. Please star this repo firs
    ```
 3. Open Your Text Editor
    ```sh
-   code . (for shorcut to open VScode)
+   code . 
    ```
 4. Install NPM
    ```sh
